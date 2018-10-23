@@ -1,0 +1,93 @@
+body {
+	background-color: #ded1e5;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+	display: inline;
+	float: right;
+}
+
+a {
+	display: block;
+	padding: 8px;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+
+li a {
+	display: block;
+	color: #4dafb0;
+	text-align: center;
+	padding: 20px 24px 14px 24px;
+	font-family: "Orator STD", Helvetica, sans-serif;
+	text-transform: uppercase;
+	z-index: 1;
+}
+
+li a:hover {
+	background-color: #4dafb0;
+	color: #ffffff; 
+}
+
+img {  
+    max-height: 100%;  
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.logo {
+	width: 200px;
+}
+
+.active {
+	background-color: #4dafb0;
+}
+
+.frame {  
+    height: 100vh; /*can be anything*/
+/*can be anything*/
+    position: relative;
+    z-index: -1;
+}
+
+.bg {
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/food1.jpg');
+	background-size: cover;
+
+	top:160%;
+	display: inline-block;
+}
+
+.bg2 {
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/food2.jpg');
+	background-size: cover;
+
+	top:160%;
+	display: inline-block;
+}
+
+
+
+
+
