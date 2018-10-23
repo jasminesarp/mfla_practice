@@ -3,6 +3,14 @@ body {
 	margin: 0;
 }
 
+h1 {
+	font-family: "Orator STD", Helvetica, sans-serif;
+	font-size: 30pt;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
